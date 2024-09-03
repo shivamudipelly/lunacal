@@ -1,0 +1,48 @@
+/* src/index.css */
+
+/* Import Tailwind's base styles (includes reset and core styles) */
+@tailwind base;
+
+/* Import Tailwind's component styles (pre-built components) */
+@tailwind components;
+
+/* Import Tailwind's utility classes (all utilities like margin, padding, etc.) */
+@tailwind utilities;
+
+/* Optional: Custom styles */
+body {
+    background-color: #1a202c;
+    /* Dark shade similar to the card color */
+}
+.line{
+    box-shadow: 0 0 10px gray;
+}
+
+.smart{
+    height: 70%;
+    margin-right: 15px;
+}
+
+
+.custom-line{
+    border-radius: 6px;
+    height: 50%;
+    width: 6px;
+    background:  #fff;
+    border: 2px solid;
+    position: absolute;
+    right: -5px;
+    box-shadow: 0 0 10px ;
+}
+
+.button{
+    height: 50px;
+    padding: 0 30px;
+    box-shadow: 0 0 10px;
+}
+
+.arrow{
+    width: 30px ;
+    height: 20px;
+    background-color: black;
+}
