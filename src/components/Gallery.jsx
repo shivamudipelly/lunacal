@@ -32,7 +32,7 @@ const Gallery = () => {
 
   return (
     <div className="flex flex-col lg:flex-row bg-gray-800 text-white p-4 rounded-lg shadow-md">
-      <div className='hidden md:block hidden lg:block'>
+      <div className=' hidden lg:block'>
       <Side/>
       </div>
       <div>
